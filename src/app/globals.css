@@ -4,6 +4,15 @@
 
 @layer base {
   * {
-    @apply box-border
+    @apply box-border;
+  }
+}
+
+@layer components {
+  .row {
+    @apply *:border-gray-200 *:p-4;
+  }
+  .row-body {
+    @apply *:bg-white;
   }
 }
